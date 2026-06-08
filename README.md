@@ -1,56 +1,311 @@
-Goal
-Build a fully functional, beautiful, SEO-optimized corporate website for M&D Desarrollo Web (web development company founded by Mathier Mendoza Morelos and David Guadalupe Vargas López).
-Constraints & Preferences
-Dark background with cyan/blue animated particle canvas (restored after a white-background experiment)
-White background attempt was reverted; dark theme is the final choice
-All "Cotizar" and "Solicitar cotización" buttons must open WhatsApp directly (not scroll to #cta)
-Floating WhatsApp button always visible in bottom-right corner with pulse animation and tooltip
-M&D logo in the top-left nav must be clickable and link to the top of the page (href="#")
-Favicon must be an actual SVG file (favicon.svg), not a data URI, because data URIs don't load reliably
-Tech stack for both founders must be updated to the same list: Docker, Kubernetes, AWS, Linux, Nginx, Laravel, Stripe, Node.js, Python, PostgreSQL, MySQL, MariaDB
-TypeScript was removed from the tech carousel and replaced with the list above
-Technologies divided by role: Mathier (infra/servers): Docker, Kubernetes, AWS, Linux, Nginx, PostgreSQL, MySQL, MariaDB — David (software): Laravel, Stripe, Node.js, Python, Docker, PostgreSQL, MySQL, MariaDB
-All external links must have rel="noopener noreferrer"
-All source code split into separate files: index.html, style.css, script.js
-Spanish language for Mexico (es-MX)
-Progress
-Done
-Created full responsive website with dark theme and cyan/blue animated particle canvas background
-Added glow orbs with drift animation for depth
-Added typing effect in hero (cycles through "Desarrollo web a medida", "Despliegue en la nube", "SEO que posiciona", "Arquitectura escalable", "Soporte continuo")
-Added animated counters (50+ projects, 30+ clients, 5+ years, 98% uptime) that trigger on scroll via IntersectionObserver
-Added timeline process (4 steps: Descubrimiento → Arquitectura & Diseño → Desarrollo & CI/CD → Despliegue & Growth)
-Added features/benefits grid (4 cards)
-Added tech carousel with infinite scroll (pauses on hover)
-Added team section with both founders, actual bios, skills, and social links
-Added FAQ section with accordion and JSON-LD FAQPage schema
-Added SEO suite: meta title/description/keywords, canonical, hreflang, Dublin Core, geo tags, Open Graph, Twitter Cards, robots.txt, sitemap.xml
-Added JSON-LD structured data: Organization, WebSite, BreadcrumbList, FAQPage
-Added preloader/loader animation (M&D logo pulse + progress bar)
-Added favicon.svg (inline SVG with M&D logo on dark background)
-Removed CUCEI/CTA mentions from team bios
-Removed Testimonials section
-Removed TypeScript from tech stack
-David's GitHub linked to https://github.com/David-1212
-Split code into index.html, style.css, script.js
-All external WhatsApp and GitHub links have rel="noopener noreferrer"
-In Progress
-(none)
-Blocked
-(none)
-Key Decisions
-Dark theme (#06060e) with cyan accent (#00e5ff) was chosen as the final design direction after testing white background — user explicitly requested "el fondo azul con animacion que tenia al principio" (the blue animated background from the beginning)
-Data URI favicon didn't load reliably → switched to a real favicon.svg file on disk
-href="#hero" on the logo didn't feel like scrolling to top → changed to href="#" for a more natural "back to top" behavior
-Contact form was replaced entirely by WhatsApp-only CTA because the user said "reemplazalo por un mensaje de wp" (replace it with a WhatsApp message)
-TypeScript removed per user request; replaced with Docker, Kubernetes, AWS, Linux, Nginx, Laravel, Stripe, Node.js, Python, PostgreSQL, MySQL, MariaDB
-Next Steps
-(none — user asked "con eso hay?" — the page appears to be in a completed state pending user feedback)
-Possible future additions if requested: Google Analytics, blog/articles for organic traffic, 404 page, service worker/PWA, project portfolio with real screenshots, contact form with email backend, Google Search Console verification meta tag, Open Graph image (1200×630px) with real logo
-Critical Context
-WhatsApp number used: 584241234567 (placeholder — must be changed to the real number before going live)
-Domain: https://mdsoftware.com/ (placeholder — must be changed to the real domain before going live)
-The JSON-LD structured data and canonical URLs reference https://mdsoftware.com/ — update this if the real domain is different
-The page is being served from C:\Users\sav\Desktop\mdsoftware.com\ — a local desktop folder, not a live server
-GitHub profile for David: https://github.com/David-1212
-GitHub profile for Mathier: https://github.com/DeadZombie14
+# M&D Desarrollo Web
+
+Sitio web corporativo oficial de **M&D Desarrollo Web**, empresa especializada en desarrollo web, infraestructura cloud, automatización de procesos y soluciones digitales a medida.
+
+Fundada por **Mathier Mendoza Morelos** y **David Guadalupe Vargas López**, M&D combina experiencia en desarrollo de software, arquitectura de servidores y despliegue de aplicaciones escalables para ofrecer soluciones modernas, seguras y orientadas al crecimiento empresarial.
+
+---
+
+## 🌐 Descripción
+
+Este proyecto consiste en una landing page corporativa moderna, optimizada para SEO y diseñada para convertir visitantes en clientes potenciales mediante contacto directo por WhatsApp.
+
+La página fue desarrollada con tecnologías web nativas, priorizando:
+
+* Alto rendimiento
+* Diseño responsivo
+* Experiencia de usuario moderna
+* Posicionamiento SEO
+* Accesibilidad
+* Escalabilidad
+
+---
+
+## ✨ Características
+
+### 🎨 Diseño y experiencia visual
+
+* Tema oscuro profesional
+* Fondo animado con partículas en tonos cyan y azul
+* Efectos glow dinámicos
+* Animaciones suaves de entrada
+* Diseño completamente responsivo
+* Navegación optimizada para dispositivos móviles
+
+### 🚀 Hero Section
+
+* Efecto de escritura dinámica (Typing Effect)
+* Mensajes rotativos:
+
+  * Desarrollo web a medida
+  * Despliegue en la nube
+  * SEO que posiciona
+  * Arquitectura escalable
+  * Soporte continuo
+
+### 📊 Métricas animadas
+
+Contadores activados mediante IntersectionObserver:
+
+* 50+ proyectos completados
+* 30+ clientes atendidos
+* 5+ años de experiencia
+* 98% uptime
+
+### ⚙️ Proceso de trabajo
+
+Timeline visual compuesto por:
+
+1. Descubrimiento
+2. Arquitectura & Diseño
+3. Desarrollo & CI/CD
+4. Despliegue & Growth
+
+### 💡 Beneficios
+
+* Desarrollo personalizado
+* Infraestructura escalable
+* Optimización SEO
+* Soporte continuo
+
+### 🔄 Carrusel de tecnologías
+
+Carrusel infinito con pausa al pasar el cursor.
+
+### 👨‍💻 Equipo
+
+Sección dedicada a los fundadores con:
+
+* Biografía profesional
+* Tecnologías dominadas
+* Redes profesionales
+* GitHub
+
+### ❓ FAQ
+
+Sistema de acordeón interactivo con preguntas frecuentes.
+
+### 📱 Integración WhatsApp
+
+* Todos los botones de cotización abren WhatsApp directamente.
+* Botón flotante permanente.
+* Animación de pulso.
+* Tooltip informativo.
+
+---
+
+## 🛠 Tecnologías Utilizadas
+
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript Vanilla
+
+### Infraestructura
+
+* Docker
+* Kubernetes
+* AWS
+* Linux
+* Nginx
+
+### Backend y Desarrollo
+
+* Laravel
+* Node.js
+* Python
+* Stripe
+
+### Bases de Datos
+
+* PostgreSQL
+* MySQL
+* MariaDB
+
+---
+
+## 👥 Equipo
+
+### David Guadalupe Vargas López
+
+Desarrollador Full Stack especializado en:
+
+* Laravel
+* Node.js
+* Python
+* Stripe
+* PostgreSQL
+* MySQL
+* MariaDB
+* Docker
+
+GitHub:
+https://github.com/David-1212
+
+---
+
+### Mathier Mendoza Morelos
+
+Especialista en infraestructura, servidores y despliegue cloud.
+
+Tecnologías:
+
+* Docker
+* Kubernetes
+* AWS
+* Linux
+* Nginx
+* PostgreSQL
+* MySQL
+* MariaDB
+
+GitHub:
+https://github.com/DeadZombie14
+
+---
+
+## 📂 Estructura del Proyecto
+
+```text
+mdsoftware.com/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── favicon.svg
+│
+├── sitemap.xml
+├── robots.txt
+│
+└── assets/
+```
+
+## 🔍 SEO Implementado
+
+### Meta Tags
+
+* Title optimizado
+* Description optimizada
+* Keywords
+* Canonical URL
+* Hreflang es-MX
+
+### Open Graph
+
+* Facebook
+* LinkedIn
+* WhatsApp
+
+### Twitter Cards
+
+* Summary Large Image
+
+### Datos Estructurados (JSON-LD)
+
+* Organization
+* WebSite
+* BreadcrumbList
+* FAQPage
+
+### Geo SEO
+
+* México
+* Guadalajara, Jalisco
+
+---
+
+## 📈 Rendimiento
+
+Características implementadas para mejorar velocidad y experiencia:
+
+* CSS optimizado
+* JavaScript modular
+* Animaciones aceleradas por GPU
+* Lazy rendering visual
+* Canvas optimizado
+* Sin dependencias pesadas
+
+---
+
+## 🔐 Seguridad
+
+Todos los enlaces externos utilizan:
+
+```html
+rel="noopener noreferrer"
+```
+
+Esto evita ataques relacionados con:
+
+* Reverse Tabnabbing
+* Manipulación de ventanas externas
+
+---
+
+## 📱 WhatsApp Business
+
+Actualmente el proyecto utiliza un número de ejemplo:
+
+```text
+584241234567
+```
+
+Antes de publicar en producción debe reemplazarse por el número oficial de la empresa.
+
+---
+
+## 🌍 Dominio
+
+Actualmente configurado con:
+
+```text
+https://mdsoftware.com/
+```
+
+Si el dominio final cambia, actualizar:
+
+* Canonical URL
+* Open Graph URLs
+* Twitter URLs
+* JSON-LD
+* Sitemap.xml
+
+---
+
+## 🚀 Despliegue
+
+Puede desplegarse en:
+
+* AWS
+* DigitalOcean
+* Hostinger VPS
+* Contabo
+* Azure
+* Google Cloud
+* Servidores Linux con Nginx
+
+---
+
+## 📌 Próximas Mejoras
+
+Posibles funcionalidades futuras:
+
+* Google Analytics
+* Google Search Console
+* Blog corporativo
+* Portafolio de proyectos
+* PWA (Progressive Web App)
+* Service Worker
+* Página 404 personalizada
+* Integración con CRM
+* Panel administrativo
+
+---
+
+## © Licencia
+
+Proyecto desarrollado por M&D Desarrollo Web.
+
+Todos los derechos reservados.
