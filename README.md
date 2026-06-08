@@ -6,7 +6,7 @@ Fundada por **Mathier Mendoza Morelos** y **David Guadalupe Vargas López**, M&D
 
 ---
 
-## 🌐 Descripción
+## Descripción
 
 Este proyecto consiste en una landing page corporativa moderna, optimizada para SEO y diseñada para convertir visitantes en clientes potenciales mediante contacto directo por WhatsApp.
 
@@ -21,9 +21,9 @@ La página fue desarrollada con tecnologías web nativas, priorizando:
 
 ---
 
-## ✨ Características
+## Características
 
-### 🎨 Diseño y experiencia visual
+### Diseño y experiencia visual
 
 * Tema oscuro profesional
 * Fondo animado con partículas en tonos cyan y azul
@@ -32,7 +32,7 @@ La página fue desarrollada con tecnologías web nativas, priorizando:
 * Diseño completamente responsivo
 * Navegación optimizada para dispositivos móviles
 
-### 🚀 Hero Section
+### Hero Section
 
 * Efecto de escritura dinámica (Typing Effect)
 * Mensajes rotativos:
@@ -43,7 +43,7 @@ La página fue desarrollada con tecnologías web nativas, priorizando:
   * Arquitectura escalable
   * Soporte continuo
 
-### 📊 Métricas animadas
+### Métricas animadas
 
 Contadores activados mediante IntersectionObserver:
 
@@ -52,7 +52,7 @@ Contadores activados mediante IntersectionObserver:
 * 5+ años de experiencia
 * 98% uptime
 
-### ⚙️ Proceso de trabajo
+### Proceso de trabajo
 
 Timeline visual compuesto por:
 
@@ -61,18 +61,18 @@ Timeline visual compuesto por:
 3. Desarrollo & CI/CD
 4. Despliegue & Growth
 
-### 💡 Beneficios
+### Beneficios
 
 * Desarrollo personalizado
 * Infraestructura escalable
 * Optimización SEO
 * Soporte continuo
 
-### 🔄 Carrusel de tecnologías
+### Carrusel de tecnologías
 
 Carrusel infinito con pausa al pasar el cursor.
 
-### 👨‍💻 Equipo
+### Equipo
 
 Sección dedicada a los fundadores con:
 
@@ -81,11 +81,11 @@ Sección dedicada a los fundadores con:
 * Redes profesionales
 * GitHub
 
-### ❓ FAQ
+### FAQ
 
 Sistema de acordeón interactivo con preguntas frecuentes.
 
-### 📱 Integración WhatsApp
+### Integración WhatsApp
 
 * Todos los botones de cotización abren WhatsApp directamente.
 * Botón flotante permanente.
@@ -94,7 +94,7 @@ Sistema de acordeón interactivo con preguntas frecuentes.
 
 ---
 
-## 🛠 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 ### Frontend
 
@@ -125,7 +125,7 @@ Sistema de acordeón interactivo con preguntas frecuentes.
 
 ---
 
-## 👥 Equipo
+## Equipo
 
 ### David Guadalupe Vargas López
 
@@ -142,8 +142,6 @@ Desarrollador Full Stack especializado en:
 
 GitHub:
 https://github.com/David-1212
-
----
 
 ### Mathier Mendoza Morelos
 
@@ -165,7 +163,7 @@ https://github.com/DeadZombie14
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 mdsoftware.com/
@@ -182,7 +180,9 @@ mdsoftware.com/
 └── assets/
 ```
 
-## 🔍 SEO Implementado
+---
+
+## SEO Implementado
 
 ### Meta Tags
 
@@ -216,20 +216,20 @@ mdsoftware.com/
 
 ---
 
-## 📈 Rendimiento
+## Rendimiento
 
 Características implementadas para mejorar velocidad y experiencia:
 
 * CSS optimizado
 * JavaScript modular
 * Animaciones aceleradas por GPU
-* Lazy rendering visual
+* Renderizado optimizado
 * Canvas optimizado
 * Sin dependencias pesadas
 
 ---
 
-## 🔐 Seguridad
+## Seguridad
 
 Todos los enlaces externos utilizan:
 
@@ -237,14 +237,14 @@ Todos los enlaces externos utilizan:
 rel="noopener noreferrer"
 ```
 
-Esto evita ataques relacionados con:
+Esto ayuda a prevenir:
 
 * Reverse Tabnabbing
 * Manipulación de ventanas externas
 
 ---
 
-## 📱 WhatsApp Business
+## WhatsApp Business
 
 Actualmente el proyecto utiliza un número de ejemplo:
 
@@ -256,7 +256,7 @@ Antes de publicar en producción debe reemplazarse por el número oficial de la 
 
 ---
 
-## 🌍 Dominio
+## Dominio
 
 Actualmente configurado con:
 
@@ -270,11 +270,11 @@ Si el dominio final cambia, actualizar:
 * Open Graph URLs
 * Twitter URLs
 * JSON-LD
-* Sitemap.xml
+* sitemap.xml
 
 ---
 
-## 🚀 Despliegue
+## Despliegue
 
 Puede desplegarse en:
 
@@ -288,7 +288,7 @@ Puede desplegarse en:
 
 ---
 
-## 📌 Próximas Mejoras
+## Próximas Mejoras
 
 Posibles funcionalidades futuras:
 
@@ -304,7 +304,7 @@ Posibles funcionalidades futuras:
 
 ---
 
-## © Licencia
+## Licencia
 
 Proyecto desarrollado por M&D Desarrollo Web.
 
