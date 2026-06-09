@@ -11,7 +11,7 @@
     Desarrollo web · Despliegue en la nube · SEO
   </p>
   <p align="center">
-    <a href="https://wa.me/584241234567" target="_blank" rel="noopener noreferrer">
+    <a href="https://wa.me/3335993568" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/WhatsApp-Cotizar-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp">
     </a>
   </p>
@@ -93,7 +93,7 @@ Antes de desplegar, actualiza estas variables:
 
 | Variable | Archivo | Descripción |
 |----------|---------|-------------|
-| Número WhatsApp | `index.html` (varias líneas) | Reemplaza `584241234567` por el número real |
+| Número WhatsApp | `index.html` (varias líneas) | Reemplaza `3335993568` por el número real |
 | Dominio | `index.html` (JSON-LD, canonical) | Cambia `https://mdsoftware.com/` por tu dominio real |
 | Redes sociales | `index.html` (sección team) | Agrega los links reales de LinkedIn, email, etc. |
 
@@ -131,7 +131,7 @@ Antes de desplegar, actualiza estas variables:
 ---
 
 <div align="center">
-  <a href="https://wa.me/584241234567" target="_blank" rel="noopener noreferrer">
+  <a href="https://wa.me/3335993568" target="_blank" rel="noopener noreferrer">
     <b>📱 Cotiza tu proyecto por WhatsApp</b>
   </a>
   <br/>
